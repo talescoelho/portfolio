@@ -4,6 +4,7 @@ import Portfolio from "./Portfolio"
 import Projects from "./Projects"
 import Skills from "./Skills"
 import Links from "./Links"
+
 import './css/Pages.css'
 
 function Pages() {
@@ -22,7 +23,7 @@ function Pages() {
         <Route path="/portfolio/links">
           <Links />
         </Route>
-        </Switch>
+      </Switch>
     </div>
   )
 }
