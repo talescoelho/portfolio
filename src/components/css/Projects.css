@@ -1,0 +1,27 @@
+.box-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  width: 40vw;
+  flex-wrap: wrap;
+}
+
+.project-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.img-container {
+  width: 100%;
+  transition: width 0.5s;
+}
+
+.img-container:hover {
+  width: 120%;
+}
