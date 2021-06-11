@@ -11,9 +11,9 @@ function Navbar() {
         </div>
       <div className="right">
         <NavLink exact to="/portfolio" activeClassName='is-active' className="link">Sobre</NavLink>
-        <NavLink exact to="/projects" activeClassName='is-active' className="link">Projetos</NavLink>
-        <NavLink exact to="/skills" activeClassName='is-active' className="link">Skills</NavLink>
-        <NavLink exact to="/links" activeClassName='is-active' className="link">Links</NavLink>
+        <NavLink exact to="/portfolio/projects" activeClassName='is-active' className="link">Projetos</NavLink>
+        <NavLink exact to="/portfolio/skills" activeClassName='is-active' className="link">Skills</NavLink>
+        <NavLink exact to="/portfolio/links" activeClassName='is-active' className="link">Links</NavLink>
       </div>
     </div>
   )
