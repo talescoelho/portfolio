@@ -10,16 +10,16 @@ function Pages() {
   return (
     <div className="main-container">
       <Switch>
-        <Route path="/portfolio/sobre">
+        <Route path="/">
           <Sobre />
         </Route>
-        <Route path="/portfolio/projects">
+        <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/portfolio/skills">
+        <Route path="/skills">
           <Skills />
         </Route>
-        <Route path="/portfolio/links">
+        <Route path="/links">
           <Links />
         </Route>
         </Switch>
