@@ -15,7 +15,7 @@ function Projects() {
     {
       project: {
         name: "libraryCardCrud",
-        url: "./image/MovieListCrud.png",
+        url: "https://raw.githubusercontent.com/talescoelho/portfolio/master/src/components/image/MovieListCrud.png",
       route: "https://github.com/tryber/sd-011-project-movie-card-library-crud/pull/3",
       }
     }
