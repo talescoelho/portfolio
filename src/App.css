@@ -9,8 +9,26 @@
 }
 
 .dark {
-  background-color: black;
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.dark {
+  background-color: #141414;
   color: white;
+}
+
+.light {
+  background-color: #141414;
+  color: white;
+  transition: background-color 1s, color 1s;
+}
+
+.light {
+  background-color: #fafafa;
+  color: black;
+  color: inherit;
 }
 
 .mode {

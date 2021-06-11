@@ -11,7 +11,7 @@ function handleClick(mode) {
   if (mode) {
     document.getElementById('root').parentNode.className = "dark";
   } else {
-    document.getElementById('root').parentNode.className = "";
+    document.getElementById('root').parentNode.className = "light";
   }
 }
 
