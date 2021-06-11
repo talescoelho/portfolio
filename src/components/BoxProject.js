@@ -3,16 +3,15 @@ import './css/Show.css';
 import './css/Projects.css';
 
 function BoxProject(props) {
-  console.log(props);
   return (
     <div>
       <a
-        href={ props.url.route }
+        href={ props.data.route }
         target="_blank"
         rel="noopener noreferrer"
         className="project-box link"
       >
-        <img className="img-container" src={ props.url.url } alt="TrybeWarts"></img>
+        <img className="img-container" src={ props.data.url } alt="TrybeWarts"></img>
       </a>
     </div>
   );
