@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom";
-import Sobre from "./Sobre"
+import Portfolio from "./Portfolio"
 import Projects from "./Projects"
 import Skills from "./Skills"
 import Links from "./Links"
@@ -11,7 +11,7 @@ function Pages() {
     <div className="main-container">
       <Switch>
         <Route path="/">
-          <Sobre />
+          <Portfolio />
         </Route>
         <Route path="/projects">
           <Projects />
