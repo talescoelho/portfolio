@@ -10,7 +10,7 @@ function Navbar() {
         <span>Estudante de Desenvolvimento Web</span>
         </div>
       <div className="right">
-        <NavLink to="/portfolio" activeClassName='is-active' className="link">Sobre</NavLink>
+        <NavLink exact to="/" activeClassName='is-active' className="link">Sobre</NavLink>
         <NavLink exact to="/projects" activeClassName='is-active' className="link">Projetos</NavLink>
         <NavLink exact to="/skills" activeClassName='is-active' className="link">Skills</NavLink>
         <NavLink exact to="/links" activeClassName='is-active' className="link">Links</NavLink>
