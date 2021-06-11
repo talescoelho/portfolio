@@ -1,8 +1,7 @@
 .box-container {
   display: flex;
   flex-direction: row;
-  border: 1px solid white;
-  width: 40vw;
+  width: 60vw;
   flex-wrap: wrap;
 }
 
@@ -14,7 +13,7 @@
   height: 150px;
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 .img-container {
